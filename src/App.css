@@ -1,0 +1,3 @@
+.destroy, .filters li:hover, .toggle, .toggle-all:hover {
+  cursor: pointer;
+}
