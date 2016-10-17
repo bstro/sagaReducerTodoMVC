@@ -2,11 +2,13 @@
   "name": "sagareducer-todo-mvc",
   "version": "0.0.1",
   "private": true,
+  "homepage": "http://bstro.github.io/sagaReducerTodoMVC",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
   "dependencies": {
     "babel-polyfill": "^6.16.0",
+    "gh-pages": "^0.11.0",
     "immutable": "^3.8.1",
     "node-uuid": "^1.4.7",
     "ramda": "^0.22.1",
@@ -23,6 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
