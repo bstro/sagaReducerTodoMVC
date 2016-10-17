@@ -1,6 +1,7 @@
 import { take, select } from 'redux-saga/effects'
-import { RETURN } from './createSagaStore'
 import { ACTION } from './types'
+
+const RETURN = "__SAGAREDUCER_RETURN";
 
 const loggerConfig = {
   [ACTION.RETURN]: { emoji: "️✅" },
