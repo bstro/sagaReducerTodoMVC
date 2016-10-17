@@ -3,7 +3,7 @@ import uuid from 'node-uuid'
 import { select, call, fork } from 'redux-saga/effects'
 import { createSelector } from 'reselect'
 
-import createSagaStore, { next } from './createSagaStore'
+import createSagaStore, { next } from 'redux-saga-reducers'
 import { logAndWatch } from './helpers'
 import { ACTION, APP } from './types'
 

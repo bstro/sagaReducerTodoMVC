@@ -1,15 +1,17 @@
+import "babel-polyfill";
+
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import App from './App'
-import Store from './Store'
+import store from './Store'
 
 import '../node_modules/todomvc-app-css/index.css'
 import '../node_modules/todomvc-common/base.css'
 import './index.css'
 
 render(
-  <Provider store={Store}>
+  <Provider store={store}>
     <div>
       <App />
       <footer className="info">
